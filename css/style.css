@@ -1,0 +1,48 @@
+ /* .:root{
+    --bg-color:red;
+    yeh hai globla  ese hum kahi bhi use ker sakte hai
+}
+.box{
+    --leg-color:blue;
+    ese hum bus es classk ke ander hi use ker sakte hai bahar nahi ese children per bhi use ker sakte hai}  */
+    *{
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    .carousel-item{
+        width: 100%;
+        height: 80vh;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100%;
+    }
+ 
+    #bootstrap-overrides #carouselExampleCaptions .carousel-control-prev .carousel-control-prev-icon,#bootstrap-overrides #carouselExampleCaptions .carousel-control-next .carousel-control-next-icon{
+filter: none; 
+
+background-color: rgb(205, 128, 50);
+    } 
+#aboutrow{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.column{
+    flex:0 0 300px;
+}
+.column img{
+    width: 100%;
+    height: 100%;
+}
+#bootstrap-overrides .para{
+    flex:0 0 500px;
+}
+
+
+@media only screen and (max-width:991px) {
+    .ls{
+        margin-top: 10px;
+    }
+    
+}
